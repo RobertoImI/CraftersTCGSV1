@@ -1,50 +1,48 @@
-# Visor de cartas HD + holofoil 003
+# Card Viewer HD — Holofoil PNG para Venusaur EX 003
 
-Versión de prueba del visor para Minecraft NeoForge 1.21.1.
+Parche de prueba para Minecraft NeoForge 1.21.1.
 
-## Cartas habilitadas
+## Estado
 
-- **001 Bulbasaur** — imagen HD, sin holofoil.
-- **002 Ivysaur** — imagen HD, sin holofoil.
-- **003 Venusaur ex** — imagen HD con holofoil procedimental **solo en el frente**.
-- Todos usan el mismo `card_back.png` del proyecto.
+**El parche está incorporado en esta rama.** Incluye código Java y los dos PNG transparentes necesarios.
 
-## Recursos HD requeridos
+| Carta | Vista frontal HD | Holofoil |
+|---|---|---|
+| 001 Bulbasaur | 001_front.png | No |
+| 002 Ivysaur | 002_front.png | No |
+| 003 Venusaur EX | 003_front.png | Sí, solo frente |
 
-En `src/main/resources/assets/pokecrafters_tcg/textures/card_viewer/fronts/`:
+El reverso común se mantiene con \`card_back.png\`.
 
-- `001_front.png` (ya estaba en master)
-- **`002_front.png`** (archivo proporcionado en el chat, 330×460)
-- **`003_front.png`** (archivo proporcionado en el chat, 330×460)
+## Texturas de foil
 
-**Importante:** los dos PNG nuevos deben añadirse como archivos binarios. El código Java está preparado, pero el archivo PNG no se encuentra en el repositorio hasta que se suba. No reemplazarlo por una imagen vacía ni cambiar su proporción.
+Ruta: \`src/main/resources/assets/pokecrafters_tcg/textures/card_viewer/foil/\`
 
-## Uso
+- \`rainbow_gradient.png\`: atlas 512×256 RGBA, degradado iridiscente con alpha **bajo e integrado en sus píxeles** (sin tapar la carta).
+- \`glitter_mask.png\`: atlas 512×256 RGBA, destellos de fondo transparente basados en máximos de brillo de la imagen \`rainbow.jpg\` facilitada en la conversación.
+- \`rainbow_foil.png\`: textura de la prueba anterior. **Ya NO se utiliza**; conservarla no cambia el resultado.
 
-Sostener el ítem `bulbasaur_001`, `ivysaur_002` o `venusaur_003` y hacer clic derecho. Mantener clic izquierdo y arrastrar para inclinar; clic izquierdo sin arrastrar para voltear; clic derecho o ESC para cerrar.
+## Implementación
 
-## Configuración del holofoil
+\`HolofoilEffect.java\` lee ambos PNG y los proyecta sobre el anverso con \`GuiGraphics.blit\`. Utiliza un recorte móvil de 256×256 dentro de cada atlas de 512×256, desplazado por tiempo y rotación de la carta.
 
-La lista de cartas holofoil está centralizada en `HolofoilEffect.isHolofoil(int)`, inicialmente solo la **003**. En reposo el brillo se anima suavemente; durante el arrastre la intensidad crece con la velocidad/inclinación y se desvanece al soltar.
+En reposo: un pase suave del degradado y de los destellos.
 
-El brillo no se aplica al reverso, ni modifica el render pequeño de ítems, el Binder o los datos del servidor. No se añaden shaders ni texturas auxiliares de holofoil: se dibuja procedimentalmente en la matriz del visor.
+Al girarla: un pase adicional de gradiente y hasta dos pases adicionales de destellos. La energía de arrastre baja suavemente al soltar.
 
-## Pruebas esperadas
+Se elimina el uso de \`RenderSystem.setShaderColor\` como método para cambiar la opacidad, que había producido una capa arcoíris prácticamente sólida. **La transparencia está guardada en el canal alfa de cada PNG** y las capas se dibujan en el orden correcto.
 
-1. Abrir 001, 002 y 003 con clic derecho.
-2. Confirmar las imágenes completas en HD (330×460 de origen).
-3. Comprobar que solo 003 tiene destellos suaves quieta y más notorios arrastrándola.
-4. Voltear 003: el reverso no debe mostrar holofoil.
-5. Soltar la carta: inclinación y reflejo disminuyen suavemente.
-6. Confirmar que la interfaz Binder permanece igual.
+El reverso no recibe efecto. No afecta al Binder, datos de servidor, inventarios ni modelos pequeños.
 
-## Prueba PNG rainbow foil (19 oct)
+## Pruebas
 
-La clase `HolofoilEffect.java` ahora usa una textura externa: `textures/card_viewer/foil/rainbow_foil.png`.
+1. Abre 001 y 002 y comprueba que siguen sin holofoil.
+2. Abre Venusaur EX 003 con clic derecho: la imagen y el texto deberían permanecer legibles.
+3. En reposo: brillo sutil.
+4. Mantén clic izquierdo y arrastra: los destellos deben intensificarse sin crear una lámina arcoíris sólida.
+5. Al soltar, vuelve la intensidad suave; al voltear al reverso, no se debe ver foil.
+6. Confirma que el Binder no ha cambiado.
 
-El archivo recibido como `rainbow.jpg` es una textura de destellos blanco/negro (no un degradado arcoíris). Por eso se generó `rainbow_foil.png` (1024×512, RGBA) combinando los destellos como canal alfa con color iridiscente. El visor desplaza una región de la textura y modula su intensidad con la actividad/rotación. Solo la carta 003 y solo por delante.
+**Nota:** código y PNG están publicados, pero el efecto todavía requiere confirmación visual y compilación en el entorno NeoForge del proyecto antes de considerarlo validado.
 
-**PASO PENDIENTE PARA EJECUTAR:** subir el PNG generado a
-`src/main/resources/assets/pokecrafters_tcg/textures/card_viewer/foil/rainbow_foil.png` en esta rama. El archivo binario no se pudo escribir por la herramienta GitHub utilizada; sin él habrá textura faltante.
-
-La imagen de origen tiene uso/licencia por verificar antes de redistribuirla públicamente.
+Las licencias de cualquier recurso gráfico externo se deben comprobar antes de distribuir el mod públicamente.
