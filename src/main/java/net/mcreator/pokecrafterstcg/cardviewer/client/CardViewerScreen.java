@@ -42,6 +42,18 @@ public class CardViewerScreen extends Screen {
                     "textures/card_viewer/fronts/001_front.png"
             );
 
+    private static final ResourceLocation CARD_002_FRONT =
+            ResourceLocation.fromNamespaceAndPath(
+                    PokecraftersTcgMod.MODID,
+                    "textures/card_viewer/fronts/002_front.png"
+            );
+
+    private static final ResourceLocation CARD_003_FRONT =
+            ResourceLocation.fromNamespaceAndPath(
+                    PokecraftersTcgMod.MODID,
+                    "textures/card_viewer/fronts/003_front.png"
+            );
+
     private static final ResourceLocation CARD_BACK =
             ResourceLocation.fromNamespaceAndPath(
                     PokecraftersTcgMod.MODID,
@@ -194,6 +206,14 @@ public class CardViewerScreen extends Screen {
 
     private boolean actuallyDragged = false;
 
+    /*
+     * Estado del holofoil: tiempo suave y energía de arrastre.
+     * El efecto se aplica únicamente al frente de la 003.
+     */
+    private float holoTime = 0.0F;
+    private float holoDragEnergy = 0.0F;
+    private long lastHoloFrameNanos = 0L;
+
 
     public CardViewerScreen(
             int cardNumber
@@ -314,6 +334,19 @@ public class CardViewerScreen extends Screen {
 
 
         /*
+         * Avance independiente de los FPS del efecto holográfico.
+         */
+        long nowNanos = System.nanoTime();
+        float elapsedSeconds = lastHoloFrameNanos == 0L
+                ? 0.016F
+                : Math.min(0.05F, Math.max(0.0F,
+                        (nowNanos - lastHoloFrameNanos) / 1_000_000_000.0F));
+        lastHoloFrameNanos = nowNanos;
+
+        holoDragEnergy = Math.max(0.0F, holoDragEnergy - elapsedSeconds * 1.1F);
+        holoTime += elapsedSeconds * (0.28F + holoDragEnergy * 0.55F);
+
+        /*
          * --------------------------------------------------------
          * FLIP
          * --------------------------------------------------------
@@ -395,64 +428,6 @@ public class CardViewerScreen extends Screen {
                 renderBack
                         ? CARD_BACK
                         : getFrontTexture();
-
-
-        /*
-         * ========================================================
-         * SOMBRA
-         * ========================================================
-         *
-         * Mucho más discreta que antes.
-         *
-         * Está prácticamente pegada a la carta.
-         */
-
-        float totalShadowScaleX =
-                openScale
-                        * flipScaleX;
-
-        int shadowWidth =
-                Math.round(
-                        cardWidth
-                                * totalShadowScaleX
-                );
-
-        int shadowHeight =
-                Math.round(
-                        cardHeight
-                                * openScale
-                );
-
-
-        /*
-         * Solo 2px derecha
-         * y 3px abajo.
-         */
-        int shadowX =
-                Math.round(
-                        centerX
-                                - shadowWidth / 2.0F
-                                + 2.0F
-                );
-
-        int shadowY =
-                Math.round(
-                        centerY
-                                - shadowHeight / 2.0F
-                                + 3.0F
-                );
-
-
-        /*
-         * Muy transparente.
-         */
-        graphics.fill(
-                shadowX,
-                shadowY,
-                shadowX + shadowWidth,
-                shadowY + shadowHeight,
-                0x28000000
-        );
 
 
         /*
@@ -597,6 +572,30 @@ public class CardViewerScreen extends Screen {
                 TEXTURE_HEIGHT
         );
 
+
+        /*
+         * Renderizamos el holofoil en la MISMA matriz que la carta.
+         * Así acompaña inclinación y flip y NO invade el reverso.
+         *
+         * Primero vaciamos los buffers del PNG, luego el foil por encima.
+         */
+        if (HolofoilEffect.isHolofoil(cardNumber) && !renderBack) {
+            graphics.flush();
+
+            float tilt = Math.min(1.0F,
+                    Math.abs(rotationX) / MAX_ROTATION_X * 0.48F
+                            + Math.abs(rotationY) / MAX_ROTATION_Y * 0.65F);
+            float activity = Math.min(1.0F, Math.max(tilt, holoDragEnergy));
+
+            graphics.pose().pushPose();
+            graphics.pose().translate(0.0F, 0.0F, 2.0F);
+            HolofoilEffect.render(
+                    graphics, renderX, renderY, cardWidth, cardHeight,
+                    holoTime, activity, rotationX, rotationY
+            );
+            graphics.flush();
+            graphics.pose().popPose();
+        }
 
         graphics.pose().popPose();
 
@@ -793,6 +792,13 @@ public class CardViewerScreen extends Screen {
                 );
 
 
+        /*
+         * Un arrastre rápido intensifica el destello.
+         * Si se suelta, la energía baja gradualmente.
+         */
+        float dragSpeed = (float) Math.sqrt(deltaX * deltaX + deltaY * deltaY);
+        holoDragEnergy = Math.max(holoDragEnergy, Math.min(1.0F, dragSpeed / 12.0F));
+
         lastMouseX = mouseX;
         lastMouseY = mouseY;
 
@@ -976,12 +982,11 @@ public class CardViewerScreen extends Screen {
 
     private ResourceLocation getFrontTexture() {
 
-        if (cardNumber == 1) {
-
-            return CARD_001_FRONT;
-        }
-
-        return CARD_001_FRONT;
+        return switch (cardNumber) {
+            case 2 -> CARD_002_FRONT;
+            case 3 -> CARD_003_FRONT;
+            default -> CARD_001_FRONT;
+        };
     }
 
 
