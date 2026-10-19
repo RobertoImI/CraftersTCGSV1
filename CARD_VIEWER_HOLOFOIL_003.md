@@ -37,3 +37,14 @@ El brillo no se aplica al reverso, ni modifica el render pequeño de ítems, el 
 4. Voltear 003: el reverso no debe mostrar holofoil.
 5. Soltar la carta: inclinación y reflejo disminuyen suavemente.
 6. Confirmar que la interfaz Binder permanece igual.
+
+## Prueba PNG rainbow foil (19 oct)
+
+La clase `HolofoilEffect.java` ahora usa una textura externa: `textures/card_viewer/foil/rainbow_foil.png`.
+
+El archivo recibido como `rainbow.jpg` es una textura de destellos blanco/negro (no un degradado arcoíris). Por eso se generó `rainbow_foil.png` (1024×512, RGBA) combinando los destellos como canal alfa con color iridiscente. El visor desplaza una región de la textura y modula su intensidad con la actividad/rotación. Solo la carta 003 y solo por delante.
+
+**PASO PENDIENTE PARA EJECUTAR:** subir el PNG generado a
+`src/main/resources/assets/pokecrafters_tcg/textures/card_viewer/foil/rainbow_foil.png` en esta rama. El archivo binario no se pudo escribir por la herramienta GitHub utilizada; sin él habrá textura faltante.
+
+La imagen de origen tiene uso/licencia por verificar antes de redistribuirla públicamente.
