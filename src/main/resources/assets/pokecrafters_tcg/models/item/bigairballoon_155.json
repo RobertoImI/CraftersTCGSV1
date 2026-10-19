@@ -1,0 +1,7 @@
+{
+  "parent": "pokecrafters_tcg:custom/card",
+  "textures": {
+    "0": "pokecrafters_tcg:block/155bigairballoon",
+    "particle": "pokecrafters_tcg:item/155bigairballoonicon"
+  }
+}

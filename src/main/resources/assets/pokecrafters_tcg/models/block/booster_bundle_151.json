@@ -1,0 +1,9 @@
+{
+  "parent": "pokecrafters_tcg:custom/boosterbundle",
+  "textures": {
+    "all": "pokecrafters_tcg:block/boosterbundleicon",
+    "particle": "pokecrafters_tcg:block/boosterbundleicon",
+    "0": "pokecrafters_tcg:block/boosterbundle"
+  },
+  "render_type": "solid"
+}

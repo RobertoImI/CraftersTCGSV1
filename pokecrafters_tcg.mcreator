@@ -1,0 +1,3384 @@
+{
+  "mod_elements": [
+    {
+      "name": "BoosterBundle151",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "booster_bundle_151",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/blockstates/booster_bundle_151.json",
+          "src/main/resources/assets/pokecrafters_tcg/models/block/booster_bundle_151.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/block/BoosterBundle151Block.java",
+          "src/main/resources/data/pokecrafters_tcg/loot_table/blocks/booster_bundle_151.json",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/booster_bundle_151.json"
+        ]
+      },
+      "path": "~/Boosters"
+    },
+    {
+      "name": "PokeCraftersTCG",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poke_crafters_tcg",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Booster151",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "booster_151",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/booster_151.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Booster151Item.java"
+        ]
+      },
+      "path": "~/Boosters"
+    },
+    {
+      "name": "Bulbasaur001",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bulbasaur_001",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Bulbasaur001Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/bulbasaur_001.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Ivysaur002",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ivysaur_002",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Ivysaur002Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/ivysaur_002.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Venusaur003",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "venusaur_003",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Venusaur003Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/venusaur_003.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Charmander004",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charmander_004",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/charmander_004.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Charmander004Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Charmeleon005",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charmeleon_005",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/charmeleon_005.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Charmeleon005Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Charizard006",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charizard_006",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Charizard006Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/charizard_006.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Squirtle007",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "squirtle_007",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/squirtle_007.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Squirtle007Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Wartortle008",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wartortle_008",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/wartortle_008.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Wartortle008Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Blastoise009",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blastoise_009",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/blastoise_009.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Blastoise009Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Caterpie010",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caterpie_010",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/caterpie_010.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Caterpie010Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Metapod011",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metapod_011",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/metapod_011.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Metapod011Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Butterfree012",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "butterfree_012",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Butterfree012Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/butterfree_012.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Weedle013",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weedle_013",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Weedle013Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/weedle_013.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Kakuna014",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kakuna_014",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/kakuna_014.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Kakuna014Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Beedrill015",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beedrill_015",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Beedrill015Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/beedrill_015.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "RamdonCardBooster",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ramdon_card_booster",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/procedures/RamdonCardBoosterProcedure.java"
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "RCGiveCommonCard",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rc_give_common_card",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/procedures/RCGiveCommonCardProcedure.java"
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "OpenBoosterBox",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_booster_box",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/procedures/OpenBoosterBoxProcedure.java"
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "RCGiveEXCard",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rc_give_ex_card",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/procedures/RCGiveEXCardProcedure.java"
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "RCGiveFullArtCard",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rc_give_full_art_card",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/procedures/RCGiveFullArtCardProcedure.java"
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "RCGiveTrainerEXFACard",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rc_give_trainer_exfa_card",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/procedures/RCGiveTrainerEXFACardProcedure.java"
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "RCGiveUltraCard",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rc_give_ultra_card",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/procedures/RCGiveUltraCardProcedure.java"
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Pidgey016",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pidgey_016",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/pidgey_016.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Pidgey016Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Pidgeotto017",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pidgeotto_017",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/pidgeotto_017.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Pidgeotto017Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Pidgeot018",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pidgeot_018",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Pidgeot018Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/pidgeot_018.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Rattata019",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rattata_019",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Rattata019Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/rattata_019.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Raticate020",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raticate_020",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/raticate_020.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Raticate020Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Spearow021",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spearow_021",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Spearow021Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/spearow_021.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Fearow022",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fearow_022",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Fearow022Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/fearow_022.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Ekans023",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ekans_023",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/ekans_023.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Ekans023Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Arbok024",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arbok_024",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Arbok024Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/arbok_024.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Pikachu025",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pikachu_025",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/pikachu_025.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Pikachu025Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Raichu026",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raichu_026",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/raichu_026.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Raichu026Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Sandshrew027",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandshrew_027",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Sandshrew027Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/sandshrew_027.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Sandslash028",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandslash_028",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Sandslash028Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/sandslash_028.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Nidoranf029",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nidoranf_029",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Nidoranf029Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/nidoranf_029.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Nidorana030",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nidorana_030",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/nidorana_030.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Nidorana030Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Nidoqueen031",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nidoqueen_031",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Nidoqueen031Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/nidoqueen_031.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Nidoranm032",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nidoranm_032",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Nidoranm032Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/nidoranm_032.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Nidorino033",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nidorino_033",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Nidorino033Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/nidorino_033.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Nidoking034",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nidoking_034",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/nidoking_034.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Nidoking034Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Clefairy035",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clefairy_035",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Clefairy035Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/clefairy_035.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Clefable036",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clefable_036",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Clefable036Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/clefable_036.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Vulpix037",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vulpix_037",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/vulpix_037.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Vulpix037Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Ninetales038",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ninetales_038",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/ninetales_038.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Ninetales038Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Jigglypuff039",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jigglypuff_039",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Jigglypuff039Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/jigglypuff_039.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Wigglytuff040",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wigglytuff_040",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/wigglytuff_040.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Wigglytuff040Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Zubat041",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zubat_041",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/zubat_041.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Zubat041Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Golbat042",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golbat_042",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/golbat_042.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Golbat042Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Oddish043",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oddish_043",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/oddish_043.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Oddish043Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Gloom044",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gloom_044",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Gloom044Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/gloom_044.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Vileplume045",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vileplume_045",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/vileplume_045.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Vileplume045Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Paras046",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paras_046",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/paras_046.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Paras046Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Parasect047",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "parasect_047",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Parasect047Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/parasect_047.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Venonat048",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "venonat_048",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Venonat048Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/venonat_048.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Venomoth049",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "venomoth_049",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/venomoth_049.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Venomoth049Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Diglett050",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diglett_050",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Diglett050Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/diglett_050.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Dugtrio051",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dugtrio_051",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Dugtrio051Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/dugtrio_051.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Meowth052",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meowth_052",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/meowth_052.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Meowth052Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Persian053",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "persian_053",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Persian053Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/persian_053.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Psyduck054",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "psyduck_054",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/psyduck_054.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Psyduck054Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Golduck055",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golduck_055",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/golduck_055.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Golduck055Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Mankey056",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mankey_056",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Mankey056Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/mankey_056.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Primeape057",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "primeape_057",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Primeape057Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/primeape_057.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Growlithe058",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "growlithe_058",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Growlithe058Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/growlithe_058.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Arcanine059",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcanine_059",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Arcanine059Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/arcanine_059.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Poliwag060",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poliwag_060",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/poliwag_060.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Poliwag060Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Poliwhirl061",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poliwhirl_061",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/poliwhirl_061.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Poliwhirl061Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Poliwrath062",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poliwrath_062",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/poliwrath_062.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Poliwrath062Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Abra063",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abra_063",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/abra_063.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Abra063Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Kadabra064",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kadabra_064",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Kadabra064Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/kadabra_064.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Alakazam065",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alakazam_065",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/alakazam_065.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Alakazam065Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Machop066",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "machop_066",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Machop066Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/machop_066.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Machoke067",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "machoke_067",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Machoke067Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/machoke_067.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Machamp068",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "machamp_068",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/machamp_068.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Machamp068Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Bellsprout069",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bellsprout_069",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Bellsprout069Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/bellsprout_069.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Weepinbell070",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weepinbell_070",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/weepinbell_070.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Weepinbell070Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Victreebel071",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "victreebel_071",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Victreebel071Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/victreebel_071.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Tentacool072",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tentacool_072",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Tentacool072Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/tentacool_072.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Tentacruel073",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tentacruel_073",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/tentacruel_073.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Tentacruel073Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Geodude074",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "geodude_074",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Geodude074Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/geodude_074.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Graveler075",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "graveler_075",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/graveler_075.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Graveler075Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Golem076",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golem_076",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/golem_076.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Golem076Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Ponyta077",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ponyta_077",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Ponyta077Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/ponyta_077.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Rapidash078",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rapidash_078",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Rapidash078Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/rapidash_078.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Slowpoke079",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slowpoke_079",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Slowpoke079Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/slowpoke_079.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Slowbro080",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slowbro_080",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/slowbro_080.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Slowbro080Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Magnemite081",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magnemite_081",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Magnemite081Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/magnemite_081.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Magneton082",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magneton_082",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/magneton_082.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Magneton082Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Farfetchd083",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "farfetchd_083",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Farfetchd083Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/farfetchd_083.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Doduo084",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doduo_084",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Doduo084Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/doduo_084.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Dodrio085",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dodrio_085",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Dodrio085Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/dodrio_085.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Seel086",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seel_086",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Seel086Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/seel_086.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Dewgong087",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dewgong_087",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/dewgong_087.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Dewgong087Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Grimer088",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grimer_088",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Grimer088Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/grimer_088.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Muk089",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "muk_089",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Muk089Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/muk_089.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Shellder090",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shellder_090",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/shellder_090.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Shellder090Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Cloyster091",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cloyster_091",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/cloyster_091.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Cloyster091Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Gastly092",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gastly_092",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/gastly_092.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Gastly092Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Haunter093",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "haunter_093",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Haunter093Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/haunter_093.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Gengar094",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gengar_094",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/gengar_094.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Gengar094Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Onix095",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onix_095",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/onix_095.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Onix095Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Drowzee096",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drowzee_096",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/drowzee_096.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Drowzee096Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Hypno097",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hypno_097",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Hypno097Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/hypno_097.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Krabby098",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "krabby_098",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Krabby098Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/krabby_098.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Kingler099",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kingler_099",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Kingler099Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/kingler_099.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Voltorb100",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voltorb_100",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Voltorb100Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/voltorb_100.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Electrode101",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrode_101",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Electrode101Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/electrode_101.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Exeggcute102",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exeggcute_102",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Exeggcute102Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/exeggcute_102.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Exeggutor103",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exeggutor_103",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/exeggutor_103.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Exeggutor103Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Cubone104",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cubone_104",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/cubone_104.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Cubone104Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Marowak105",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marowak_105",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/marowak_105.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Marowak105Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Hitmonlee106",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hitmonlee_106",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Hitmonlee106Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/hitmonlee_106.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Hitmonchan107",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hitmonchan_107",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/hitmonchan_107.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Hitmonchan107Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Lickitung108",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lickitung_108",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/lickitung_108.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Lickitung108Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Koffing109",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "koffing_109",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/koffing_109.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Koffing109Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Weezing110",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weezing_110",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Weezing110Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/weezing_110.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Rhyhorn111",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rhyhorn_111",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Rhyhorn111Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/rhyhorn_111.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Rhydon112",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rhydon_112",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/rhydon_112.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Rhydon112Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Chansey113",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chansey_113",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/chansey_113.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Chansey113Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Tangela114",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tangela_114",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Tangela114Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/tangela_114.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Kangaskhan115",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kangaskhan_115",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Kangaskhan115Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/kangaskhan_115.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Horsea116",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horsea_116",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Horsea116Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/horsea_116.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Seadra117",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seadra_117",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Seadra117Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/seadra_117.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Goldeen118",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldeen_118",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/goldeen_118.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Goldeen118Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Seaking119",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seaking_119",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/seaking_119.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Seaking119Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Staryu120",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "staryu_120",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/staryu_120.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Staryu120Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Starmie121",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starmie_121",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Starmie121Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/starmie_121.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Mrmime122",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mrmime_122",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Mrmime122Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/mrmime_122.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Scyther123",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scyther_123",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Scyther123Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/scyther_123.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Jynx124",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jynx_124",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Jynx124Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/jynx_124.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Electabuzz125",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electabuzz_125",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Electabuzz125Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/electabuzz_125.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Magmar126",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmar_126",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Magmar126Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/magmar_126.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Pinsir127",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pinsir_127",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Pinsir127Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/pinsir_127.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Tauros128",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tauros_128",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/tauros_128.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Tauros128Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Magikarp129",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magikarp_129",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Magikarp129Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/magikarp_129.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Gyarados130",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gyarados_130",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Gyarados130Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/gyarados_130.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Lapras131",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapras_131",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Lapras131Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/lapras_131.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Ditto132",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ditto_132",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/ditto_132.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Ditto132Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Eevee133",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eevee_133",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/eevee_133.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Eevee133Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Vaporeon134",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vaporeon_134",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/vaporeon_134.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Vaporeon134Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Jolteon135",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jolteon_135",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Jolteon135Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/jolteon_135.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Flareon136",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flareon_136",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Flareon136Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/flareon_136.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Porygon137",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porygon_137",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/porygon_137.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Porygon137Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Omanyte138",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "omanyte_138",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Omanyte138Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/omanyte_138.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Omastar139",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "omastar_139",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/omastar_139.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Omastar139Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Kabuto140",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kabuto_140",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/kabuto_140.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Kabuto140Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Kabutops141",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kabutops_141",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Kabutops141Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/kabutops_141.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Aerodactyl142",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aerodactyl_142",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Aerodactyl142Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/aerodactyl_142.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Snorlax143",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snorlax_143",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Snorlax143Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/snorlax_143.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Articuno144",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "articuno_144",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/articuno_144.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Articuno144Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Zapdos145",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zapdos_145",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/zapdos_145.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Zapdos145Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Moltres146",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moltres_146",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Moltres146Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/moltres_146.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Dratini147",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dratini_147",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/dratini_147.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Dratini147Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Dragonair148",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragonair_148",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/dragonair_148.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Dragonair148Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Dragonite149",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragonite_149",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Dragonite149Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/dragonite_149.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Mewtwo150",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mewtwo_150",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/mewtwo_150.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Mewtwo150Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Mew151",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mew_151",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Mew151Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/mew_151.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Antiquedomefossil152",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antiquedomefossil_152",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/antiquedomefossil_152.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Antiquedomefossil152Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Antiquehelixfossil153",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antiquehelixfossil_153",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Antiquehelixfossil153Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/antiquehelixfossil_153.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Antiqueoldamber154",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antiqueoldamber_154",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Antiqueoldamber154Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/antiqueoldamber_154.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Bigairballoon155",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bigairballoon_155",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Bigairballoon155Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/bigairballoon_155.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Billstransfer156",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "billstransfer_156",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Billstransfer156Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/billstransfer_156.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Cyclingroad157",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyclingroad_157",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/cyclingroad_157.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Cyclingroad157Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Daisyshelp158",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "daisyshelp_158",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/daisyshelp_158.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Daisyshelp158Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Energysticker159",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energysticker_159",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/energysticker_159.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Energysticker159Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Erikasinvitation160",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "erikasinvitation_160",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Erikasinvitation160Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/erikasinvitation_160.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Giovannischarisma161",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giovannischarisma_161",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/giovannischarisma_161.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Giovannischarisma161Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Grabber162",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grabber_162",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Grabber162Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/grabber_162.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Leftovers163",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leftovers_163",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Leftovers163Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/leftovers_163.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Protectivegoggles164",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "protectivegoggles_164",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/protectivegoggles_164.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Protectivegoggles164Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Rigidband165",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rigidband_165",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Rigidband165Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/rigidband_165.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Bulbasaur166",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bulbasaur_166",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Bulbasaur166Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/bulbasaur_166.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Ivysaur167",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ivysaur_167",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Ivysaur167Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/ivysaur_167.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Charmander168",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charmander_168",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/charmander_168.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Charmander168Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Charmeleon169",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charmeleon_169",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/charmeleon_169.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Charmeleon169Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Squirtle170",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "squirtle_170",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/squirtle_170.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Squirtle170Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Wartortle171",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wartortle_171",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/wartortle_171.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Wartortle171Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Caterpie172",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caterpie_172",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/caterpie_172.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Caterpie172Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Pikachu173",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pikachu_173",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Pikachu173Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/pikachu_173.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Nidoking174",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nidoking_174",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Nidoking174Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/nidoking_174.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Psyduck175",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "psyduck_175",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/psyduck_175.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Psyduck175Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Poliwhirl176",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poliwhirl_176",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/poliwhirl_176.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Poliwhirl176Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Machoke177",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "machoke_177",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Machoke177Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/machoke_177.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Tangela178",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tangela_178",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Tangela178Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/tangela_178.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Mrmime179",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mrmime_179",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/mrmime_179.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Mrmime179Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Omanyte180",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "omanyte_180",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/omanyte_180.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Omanyte180Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Dragonair181",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragonair_181",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/dragonair_181.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Dragonair181Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Venusaur182",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "venusaur_182",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/venusaur_182.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Venusaur182Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Charizard183",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charizard_183",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Charizard183Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/charizard_183.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Blastoise184",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blastoise_184",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/blastoise_184.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Blastoise184Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Arbok185",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arbok_185",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Arbok185Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/arbok_185.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Ninetales186",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ninetales_186",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/ninetales_186.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Ninetales186Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Wigglytuff187",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wigglytuff_187",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/wigglytuff_187.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Wigglytuff187Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Alakazam188",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alakazam_188",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Alakazam188Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/alakazam_188.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Golem189",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golem_189",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Golem189Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/golem_189.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Kangaskhan190",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kangaskhan_190",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Kangaskhan190Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/kangaskhan_190.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Jynx191",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jynx_191",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/jynx_191.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Jynx191Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Zapdos192",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zapdos_192",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Zapdos192Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/zapdos_192.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Mew193",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mew_193",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/mew_193.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Mew193Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Billstransfer194",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "billstransfer_194",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/billstransfer_194.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Billstransfer194Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Daisyshelp195",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "daisyshelp_195",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Daisyshelp195Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/daisyshelp_195.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Erikasinvitation196",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "erikasinvitation_196",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/erikasinvitation_196.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Erikasinvitation196Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Giovannischarisma197",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giovannischarisma_197",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/giovannischarisma_197.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Giovannischarisma197Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Venusaur198",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "venusaur_198",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/venusaur_198.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Venusaur198Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Charizard199",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charizard_199",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Charizard199Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/charizard_199.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Blastoise200",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blastoise_200",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/blastoise_200.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Blastoise200Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Alakazam201",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alakazam_201",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/alakazam_201.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Alakazam201Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Zapdos202",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zapdos_202",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/zapdos_202.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Zapdos202Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Erikasinvitation203",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "erikasinvitation_203",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Erikasinvitation203Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/erikasinvitation_203.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Giovannischarisma204",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giovannischarisma_204",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Giovannischarisma204Item.java",
+          "src/main/resources/assets/pokecrafters_tcg/models/item/giovannischarisma_204.json"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Mew205",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mew_205",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/mew_205.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Mew205Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Switch206",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "switch_206",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/switch_206.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Switch206Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "Basicenergy207",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basicenergy_207",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pokecrafters_tcg/models/item/basicenergy_207.json",
+          "src/main/java/net/mcreator/pokecrafterstcg/item/Basicenergy207Item.java"
+        ]
+      },
+      "path": "~/Cards"
+    },
+    {
+      "name": "RCGiveMegaHitCard",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rc_give_mega_hit_card",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/pokecrafterstcg/procedures/RCGiveMegaHitCardProcedure.java"
+        ]
+      },
+      "path": "~/Procedures"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "ramdoncard",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:minecraft:piglin_loved": [
+      "~CUSTOM:Bulbasaur001"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.pokecrafters_tcg.booster_bundle_151": "Booster Bundle Collection 151",
+      "item_group.pokecrafters_tcg.poke_crafters_tcg": "PokeCrafters TCG",
+      "item.pokecrafters_tcg.booster_151": "Booster Collection 151",
+      "item.pokecrafters_tcg.bulbasaur_001": "Bulbasaur",
+      "item.pokecrafters_tcg.ivysaur_002": "Ivysaur",
+      "item.pokecrafters_tcg.venusaur_003": "Venusaur EX",
+      "item.pokecrafters_tcg.charmander_004": "Charmander",
+      "item.pokecrafters_tcg.charmeleon_005": "Charmeleon",
+      "item.pokecrafters_tcg.charizard_006": "Charizard EX",
+      "item.pokecrafters_tcg.squirtle_007": "Squirtle",
+      "item.pokecrafters_tcg.wartortle_008": "Wartortle",
+      "item.pokecrafters_tcg.blastoise_009": "Blastoise EX",
+      "item.pokecrafters_tcg.caterpie_010": "Caterpie",
+      "item.pokecrafters_tcg.metapod_011": "Metapod",
+      "item.pokecrafters_tcg.butterfree_012": "Butterfree",
+      "item.pokecrafters_tcg.weedle_013": "Weedle",
+      "item.pokecrafters_tcg.kakuna_014": "Kakuna",
+      "item.pokecrafters_tcg.beedrill_015": "Beedrill",
+      "item.pokecrafters_tcg.pidgey_016": "Pidgey",
+      "item.pokecrafters_tcg.pidgeotto_017": "Pidgeotto",
+      "item.pokecrafters_tcg.pidgeot_018": "Pidgeot",
+      "item.pokecrafters_tcg.rattata_019": "Rattata",
+      "item.pokecrafters_tcg.raticate_020": "Raticate",
+      "item.pokecrafters_tcg.spearow_021": "Spearow",
+      "item.pokecrafters_tcg.fearow_022": "Fearow",
+      "item.pokecrafters_tcg.ekans_023": "Ekans",
+      "item.pokecrafters_tcg.arbok_024": "Arbok EX",
+      "item.pokecrafters_tcg.pikachu_025": "Pikachu",
+      "item.pokecrafters_tcg.raichu_026": "Raichu",
+      "item.pokecrafters_tcg.sandshrew_027": "Sandshrew",
+      "item.pokecrafters_tcg.sandslash_028": "Sandslash",
+      "item.pokecrafters_tcg.nidoranf_029": "Nidoran ♀",
+      "item.pokecrafters_tcg.nidorana_030": "Nidorana",
+      "item.pokecrafters_tcg.nidoqueen_031": "Nidoqueen",
+      "item.pokecrafters_tcg.nidoranm_032": "Nidoran ♂",
+      "item.pokecrafters_tcg.nidorino_033": "Nidorino",
+      "item.pokecrafters_tcg.nidoking_034": "Nidoking",
+      "item.pokecrafters_tcg.clefairy_035": "Clefairy",
+      "item.pokecrafters_tcg.clefable_036": "Clefable",
+      "item.pokecrafters_tcg.vulpix_037": "Vulpix",
+      "item.pokecrafters_tcg.ninetales_038": "Ninetales EX",
+      "item.pokecrafters_tcg.jigglypuff_039": "Jigglypuff",
+      "item.pokecrafters_tcg.wigglytuff_040": "Wigglytuff EX",
+      "item.pokecrafters_tcg.zubat_041": "Zubat",
+      "item.pokecrafters_tcg.golbat_042": "Golbat",
+      "item.pokecrafters_tcg.oddish_043": "Oddish",
+      "item.pokecrafters_tcg.gloom_044": "Gloom",
+      "item.pokecrafters_tcg.vileplume_045": "Vileplume",
+      "item.pokecrafters_tcg.paras_046": "Paras",
+      "item.pokecrafters_tcg.parasect_047": "Parasect",
+      "item.pokecrafters_tcg.venonat_048": "Venonat",
+      "item.pokecrafters_tcg.venomoth_049": "Venomoth",
+      "item.pokecrafters_tcg.diglett_050": "Diglett",
+      "item.pokecrafters_tcg.dugtrio_051": "Dugtrio",
+      "item.pokecrafters_tcg.meowth_052": "Meowth",
+      "item.pokecrafters_tcg.persian_053": "Persian",
+      "item.pokecrafters_tcg.psyduck_054": "Psyduck",
+      "item.pokecrafters_tcg.golduck_055": "Golduck",
+      "item.pokecrafters_tcg.mankey_056": "Mankey",
+      "item.pokecrafters_tcg.primeape_057": "Primeape",
+      "item.pokecrafters_tcg.growlithe_058": "Growlithe",
+      "item.pokecrafters_tcg.arcanine_059": "Arcanine",
+      "item.pokecrafters_tcg.poliwag_060": "Poliwag",
+      "item.pokecrafters_tcg.poliwhirl_061": "Poliwhirl",
+      "item.pokecrafters_tcg.poliwrath_062": "Poliwrath",
+      "item.pokecrafters_tcg.abra_063": "Abra",
+      "item.pokecrafters_tcg.kadabra_064": "Kadabra",
+      "item.pokecrafters_tcg.alakazam_065": "Alakazam EX",
+      "item.pokecrafters_tcg.machop_066": "Machop",
+      "item.pokecrafters_tcg.machoke_067": "Machoke",
+      "item.pokecrafters_tcg.machamp_068": "Machamp",
+      "item.pokecrafters_tcg.bellsprout_069": "Bellsprout",
+      "item.pokecrafters_tcg.weepinbell_070": "Weepinbell",
+      "item.pokecrafters_tcg.victreebel_071": "Victreebel",
+      "item.pokecrafters_tcg.tentacool_072": "Tentacool",
+      "item.pokecrafters_tcg.tentacruel_073": "Tentacruel",
+      "item.pokecrafters_tcg.geodude_074": "Geodude",
+      "item.pokecrafters_tcg.graveler_075": "Graveler",
+      "item.pokecrafters_tcg.golem_076": "Golem EX",
+      "item.pokecrafters_tcg.ponyta_077": "Ponyta",
+      "item.pokecrafters_tcg.rapidash_078": "Rapidash",
+      "item.pokecrafters_tcg.slowpoke_079": "Slowpoke",
+      "item.pokecrafters_tcg.slowbro_080": "Slowbro",
+      "item.pokecrafters_tcg.magnemite_081": "Magnemite",
+      "item.pokecrafters_tcg.magneton_082": "Magneton",
+      "item.pokecrafters_tcg.farfetchd_083": "Farfetch\u0027d",
+      "item.pokecrafters_tcg.doduo_084": "Doduo",
+      "item.pokecrafters_tcg.dodrio_085": "Dodrio",
+      "item.pokecrafters_tcg.seel_086": "Seel",
+      "item.pokecrafters_tcg.dewgong_087": "Dewgong",
+      "item.pokecrafters_tcg.grimer_088": "Grimer",
+      "item.pokecrafters_tcg.muk_089": "Muk",
+      "item.pokecrafters_tcg.shellder_090": "Shellder",
+      "item.pokecrafters_tcg.cloyster_091": "Cloyster",
+      "item.pokecrafters_tcg.gastly_092": "Gastly",
+      "item.pokecrafters_tcg.haunter_093": "Haunter",
+      "item.pokecrafters_tcg.gengar_094": "Gengar",
+      "item.pokecrafters_tcg.onix_095": "Onix",
+      "item.pokecrafters_tcg.drowzee_096": "Drowzee",
+      "item.pokecrafters_tcg.hypno_097": "Hypno",
+      "item.pokecrafters_tcg.krabby_098": "Krabby",
+      "item.pokecrafters_tcg.kingler_099": "Kingler",
+      "item.pokecrafters_tcg.voltorb_100": "Voltorb",
+      "item.pokecrafters_tcg.electrode_101": "Electrode",
+      "item.pokecrafters_tcg.exeggcute_102": "Exeggcute",
+      "item.pokecrafters_tcg.exeggutor_103": "Exeggutor",
+      "item.pokecrafters_tcg.cubone_104": "Cubone",
+      "item.pokecrafters_tcg.marowak_105": "Marowak",
+      "item.pokecrafters_tcg.hitmonlee_106": "Hitmonlee",
+      "item.pokecrafters_tcg.hitmonchan_107": "Hitmonchan",
+      "item.pokecrafters_tcg.lickitung_108": "Lickitung",
+      "item.pokecrafters_tcg.koffing_109": "Koffing",
+      "item.pokecrafters_tcg.weezing_110": "Weezing",
+      "item.pokecrafters_tcg.rhyhorn_111": "Rhyhorn",
+      "item.pokecrafters_tcg.rhydon_112": "Rhydon",
+      "item.pokecrafters_tcg.chansey_113": "Chansey",
+      "item.pokecrafters_tcg.tangela_114": "Tangela",
+      "item.pokecrafters_tcg.kangaskhan_115": "Kangaskhan EX",
+      "item.pokecrafters_tcg.horsea_116": "Horsea",
+      "item.pokecrafters_tcg.seadra_117": "Seadra",
+      "item.pokecrafters_tcg.goldeen_118": "Goldeen",
+      "item.pokecrafters_tcg.seaking_119": "Seaking",
+      "item.pokecrafters_tcg.staryu_120": "Staryu",
+      "item.pokecrafters_tcg.starmie_121": "Starmie",
+      "item.pokecrafters_tcg.mrmime_122": "Mr. Mime",
+      "item.pokecrafters_tcg.scyther_123": "Scyther",
+      "item.pokecrafters_tcg.jynx_124": "Jynx EX",
+      "item.pokecrafters_tcg.electabuzz_125": "Electabuzz",
+      "item.pokecrafters_tcg.magmar_126": "Magmar",
+      "item.pokecrafters_tcg.pinsir_127": "Pinsir",
+      "item.pokecrafters_tcg.tauros_128": "Tauros",
+      "item.pokecrafters_tcg.magikarp_129": "Magikarp",
+      "item.pokecrafters_tcg.gyarados_130": "Gyarados",
+      "item.pokecrafters_tcg.lapras_131": "Lapras",
+      "item.pokecrafters_tcg.ditto_132": "Ditto",
+      "item.pokecrafters_tcg.eevee_133": "Eevee",
+      "item.pokecrafters_tcg.vaporeon_134": "Vaporeon",
+      "item.pokecrafters_tcg.jolteon_135": "Jolteon",
+      "item.pokecrafters_tcg.flareon_136": "Flareon",
+      "item.pokecrafters_tcg.porygon_137": "Porygon",
+      "item.pokecrafters_tcg.omanyte_138": "Omanyte",
+      "item.pokecrafters_tcg.omastar_139": "Omastar",
+      "item.pokecrafters_tcg.kabuto_140": "Kabuto",
+      "item.pokecrafters_tcg.kabutops_141": "Kabutops",
+      "item.pokecrafters_tcg.aerodactyl_142": "Aerodactyl",
+      "item.pokecrafters_tcg.snorlax_143": "Snorlax",
+      "item.pokecrafters_tcg.articuno_144": "Articuno",
+      "item.pokecrafters_tcg.zapdos_145": "Zapdos EX",
+      "item.pokecrafters_tcg.moltres_146": "Moltres",
+      "item.pokecrafters_tcg.dratini_147": "Dratini",
+      "item.pokecrafters_tcg.dragonair_148": "Dragonair",
+      "item.pokecrafters_tcg.dragonite_149": "Dragonite",
+      "item.pokecrafters_tcg.mewtwo_150": "Mewtwo",
+      "item.pokecrafters_tcg.mew_151": "Mew EX",
+      "item.pokecrafters_tcg.antiquedomefossil_152": "Antique Dome Fossil",
+      "item.pokecrafters_tcg.antiquehelixfossil_153": "Antique Helix Fossil",
+      "item.pokecrafters_tcg.antiqueoldamber_154": "Antique Old Amber",
+      "item.pokecrafters_tcg.bigairballoon_155": "Big Air Balloon",
+      "item.pokecrafters_tcg.billstransfer_156": "Bill\u0027s Transfer",
+      "item.pokecrafters_tcg.cyclingroad_157": "Cycling road",
+      "item.pokecrafters_tcg.daisyshelp_158": "Daisy\u0027s help",
+      "item.pokecrafters_tcg.energysticker_159": "Energy Sticker",
+      "item.pokecrafters_tcg.erikasinvitation_160": "Erika\u0027s Invitation",
+      "item.pokecrafters_tcg.giovannischarisma_161": "Giovanni\u0027s Charisma",
+      "item.pokecrafters_tcg.grabber_162": "Grabber",
+      "item.pokecrafters_tcg.leftovers_163": "Leftovers",
+      "item.pokecrafters_tcg.protectivegoggles_164": "Protective Goggles",
+      "item.pokecrafters_tcg.rigidband_165": "Rigid Band",
+      "item.pokecrafters_tcg.bulbasaur_166": "Bulbasaur",
+      "item.pokecrafters_tcg.ivysaur_167": "Ivysaur",
+      "item.pokecrafters_tcg.charmander_168": "Charmander",
+      "item.pokecrafters_tcg.charmeleon_169": "Charmeleon",
+      "item.pokecrafters_tcg.squirtle_170": "Squirtle",
+      "item.pokecrafters_tcg.wartortle_171": "Wartortle",
+      "item.pokecrafters_tcg.caterpie_172": "Caterpie",
+      "item.pokecrafters_tcg.pikachu_173": "Pikachu",
+      "item.pokecrafters_tcg.nidoking_174": "Nidoking",
+      "item.pokecrafters_tcg.psyduck_175": "Psyduck",
+      "item.pokecrafters_tcg.poliwhirl_176": "Poliwhirl",
+      "item.pokecrafters_tcg.machoke_177": "Machoke",
+      "item.pokecrafters_tcg.tangela_178": "Tangela",
+      "item.pokecrafters_tcg.mrmime_179": "Mr. Mime",
+      "item.pokecrafters_tcg.omanyte_180": "Omanyte",
+      "item.pokecrafters_tcg.dragonair_181": "Dragonair",
+      "item.pokecrafters_tcg.venusaur_182": "Venusaur EX",
+      "item.pokecrafters_tcg.charizard_183": "Charizard EX",
+      "item.pokecrafters_tcg.blastoise_184": "Blastoise EX",
+      "item.pokecrafters_tcg.arbok_185": "Arbok EX",
+      "item.pokecrafters_tcg.ninetales_186": "Ninetales EX",
+      "item.pokecrafters_tcg.wigglytuff_187": "Wigglytuff EX",
+      "item.pokecrafters_tcg.alakazam_188": "Alakazam EX",
+      "item.pokecrafters_tcg.golem_189": "Golem EX",
+      "item.pokecrafters_tcg.kangaskhan_190": "Kangaskhan EX",
+      "item.pokecrafters_tcg.jynx_191": "Jynx EX",
+      "item.pokecrafters_tcg.zapdos_192": "Zapdos EX",
+      "item.pokecrafters_tcg.mew_193": "Mew EX",
+      "item.pokecrafters_tcg.billstransfer_194": "Bill\u0027s Transfer",
+      "item.pokecrafters_tcg.daisyshelp_195": "Daisy\u0027s Help",
+      "item.pokecrafters_tcg.erikasinvitation_196": "Erika\u0027s Invitation",
+      "item.pokecrafters_tcg.giovannischarisma_197": "Giovanni\u0027s Charisma",
+      "item.pokecrafters_tcg.venusaur_198": "Venusaur EX",
+      "item.pokecrafters_tcg.charizard_199": "Charizard EX",
+      "item.pokecrafters_tcg.blastoise_200": "Blastoise EX",
+      "item.pokecrafters_tcg.alakazam_201": "Alakazam EX",
+      "item.pokecrafters_tcg.zapdos_202": "Zapdos EX",
+      "item.pokecrafters_tcg.erikasinvitation_203": "Erika\u0027s Invitation",
+      "item.pokecrafters_tcg.giovannischarisma_204": "Giovanni\u0027s Charisma",
+      "item.pokecrafters_tcg.mew_205": "Mew",
+      "item.pokecrafters_tcg.switch_206": "Switch",
+      "item.pokecrafters_tcg.basicenergy_207": "Basic Energy"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/pokecrafterstcg/init/PokecraftersTcgModBlocks.java",
+      "src/main/java/net/mcreator/pokecrafterstcg/init/PokecraftersTcgModItems.java",
+      "src/main/java/net/mcreator/pokecrafterstcg/PokecraftersTcgMod.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/pokecrafterstcg/network/PokecraftersTcgModVariables.java",
+      "src/main/java/net/mcreator/pokecrafterstcg/init/PokecraftersTcgModTabs.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Boosters",
+        "children": []
+      },
+      {
+        "name": "Cards",
+        "children": []
+      },
+      {
+        "name": "Procedures",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "pokecrafters_tcg",
+    "modName": "PokeCrafters TCG",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "modElementsPackage": "net.mcreator.pokecrafterstcg"
+  },
+  "mcreatorVersion": 202500345720
+}

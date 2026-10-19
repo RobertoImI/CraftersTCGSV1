@@ -1,0 +1,7 @@
+{
+  "parent": "pokecrafters_tcg:custom/card",
+  "textures": {
+    "0": "pokecrafters_tcg:block/01bulbasaur",
+    "particle": "pokecrafters_tcg:item/001bulbasauricon"
+  }
+}

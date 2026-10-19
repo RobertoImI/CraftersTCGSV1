@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "pokecrafters_tcg:blocks/booster_bundle_151",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pokecrafters_tcg:booster_bundle_151"
+        }
+      ]
+    }
+  ]
+}

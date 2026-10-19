@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "pokecrafters_tcg:block/booster_bundle_151"
+    },
+    "facing=east": {
+      "model": "pokecrafters_tcg:block/booster_bundle_151",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "pokecrafters_tcg:block/booster_bundle_151",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "pokecrafters_tcg:block/booster_bundle_151",
+      "y": 270
+    }
+  }
+}

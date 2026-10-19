@@ -1,0 +1,7 @@
+{
+  "parent": "pokecrafters_tcg:custom/card",
+  "textures": {
+    "0": "pokecrafters_tcg:block/055golduck",
+    "particle": "pokecrafters_tcg:item/055golduckicon"
+  }
+}

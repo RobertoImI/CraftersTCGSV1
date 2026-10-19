@@ -1,0 +1,1246 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "01bulbasaur"
+      }
+    },
+    "ivysaur002": {
+      "name": "ivysaur002",
+      "map": {
+        "0": "002ivysaur"
+      }
+    },
+    "venusaur003": {
+      "name": "venusaur003",
+      "map": {
+        "0": "003venusaur"
+      }
+    },
+    "charmander004": {
+      "name": "charmander004",
+      "map": {
+        "0": "004charmander"
+      }
+    },
+    "charmeleon005": {
+      "name": "charmeleon005",
+      "map": {
+        "0": "005charmeleon"
+      }
+    },
+    "charizard006": {
+      "name": "charizard006",
+      "map": {
+        "0": "006charizard"
+      }
+    },
+    "squirtle007": {
+      "name": "squirtle007",
+      "map": {
+        "0": "007squirtle"
+      }
+    },
+    "wartortle008": {
+      "name": "wartortle008",
+      "map": {
+        "0": "008wartortle"
+      }
+    },
+    "blastoise009": {
+      "name": "blastoise009",
+      "map": {
+        "0": "009blastoise"
+      }
+    },
+    "caterpie010": {
+      "name": "caterpie010",
+      "map": {
+        "0": "010caterpie"
+      }
+    },
+    "metapod011": {
+      "name": "metapod011",
+      "map": {
+        "0": "011metapod"
+      }
+    },
+    "butterfree012": {
+      "name": "butterfree012",
+      "map": {
+        "0": "012butterfree"
+      }
+    },
+    "weedle013": {
+      "name": "weedle013",
+      "map": {
+        "0": "013weedle"
+      }
+    },
+    "kakuna014": {
+      "name": "kakuna014",
+      "map": {
+        "0": "014kakuna"
+      }
+    },
+    "beedrill015": {
+      "name": "beedrill015",
+      "map": {
+        "0": "015beedrill"
+      }
+    },
+    "pidgey016": {
+      "name": "pidgey016",
+      "map": {
+        "0": "016pidgey"
+      }
+    },
+    "pidgeotto017": {
+      "name": "pidgeotto017",
+      "map": {
+        "0": "017pidgeotto"
+      }
+    },
+    "pidgeot018": {
+      "name": "pidgeot018",
+      "map": {
+        "0": "018pidgeot"
+      }
+    },
+    "rattata019": {
+      "name": "rattata019",
+      "map": {
+        "0": "019rattata"
+      }
+    },
+    "raticate020": {
+      "name": "raticate020",
+      "map": {
+        "0": "020raticate"
+      }
+    },
+    "spearow021": {
+      "name": "spearow021",
+      "map": {
+        "0": "021spearow"
+      }
+    },
+    "fearow022": {
+      "name": "fearow022",
+      "map": {
+        "0": "022fearow"
+      }
+    },
+    "ekans023": {
+      "name": "ekans023",
+      "map": {
+        "0": "023ekans"
+      }
+    },
+    "arbok024": {
+      "name": "arbok024",
+      "map": {
+        "0": "024arbok"
+      }
+    },
+    "pikachu025": {
+      "name": "pikachu025",
+      "map": {
+        "0": "025pikachu"
+      }
+    },
+    "raichu026": {
+      "name": "raichu026",
+      "map": {
+        "0": "026raichu"
+      }
+    },
+    "sandshrew027": {
+      "name": "sandshrew027",
+      "map": {
+        "0": "027sandshrew"
+      }
+    },
+    "sandslash028": {
+      "name": "sandslash028",
+      "map": {
+        "0": "028sandslash"
+      }
+    },
+    "nidoranf029": {
+      "name": "nidoranf029",
+      "map": {
+        "0": "029nidoranf"
+      }
+    },
+    "nidorana030": {
+      "name": "nidorana030",
+      "map": {
+        "0": "030nidorana"
+      }
+    },
+    "nidoqueen031": {
+      "name": "nidoqueen031",
+      "map": {
+        "0": "031nidoqueen"
+      }
+    },
+    "nidoranm032": {
+      "name": "nidoranm032",
+      "map": {
+        "0": "032nidoranm"
+      }
+    },
+    "nidorino033": {
+      "name": "nidorino033",
+      "map": {
+        "0": "033nidorino"
+      }
+    },
+    "nidoking034": {
+      "name": "nidoking034",
+      "map": {
+        "0": "034nidoking"
+      }
+    },
+    "clefairy035": {
+      "name": "clefairy035",
+      "map": {
+        "0": "035clefairy"
+      }
+    },
+    "clefable036": {
+      "name": "clefable036",
+      "map": {
+        "0": "036clefable"
+      }
+    },
+    "vulpix037": {
+      "name": "vulpix037",
+      "map": {
+        "0": "037vulpix"
+      }
+    },
+    "ninetales038": {
+      "name": "ninetales038",
+      "map": {
+        "0": "038ninetales"
+      }
+    },
+    "jigglypuff039": {
+      "name": "jigglypuff039",
+      "map": {
+        "0": "039jigglypuff"
+      }
+    },
+    "wigglytuff040": {
+      "name": "wigglytuff040",
+      "map": {
+        "0": "040wigglytuff"
+      }
+    },
+    "zubat041": {
+      "name": "zubat041",
+      "map": {
+        "0": "041zubat"
+      }
+    },
+    "golbat042": {
+      "name": "golbat042",
+      "map": {
+        "0": "042golbat"
+      }
+    },
+    "oddish043": {
+      "name": "oddish043",
+      "map": {
+        "0": "043oddish"
+      }
+    },
+    "gloom044": {
+      "name": "gloom044",
+      "map": {
+        "0": "044gloom"
+      }
+    },
+    "vileplume045": {
+      "name": "vileplume045",
+      "map": {
+        "0": "045vileplume"
+      }
+    },
+    "paras046": {
+      "name": "paras046",
+      "map": {
+        "0": "046paras"
+      }
+    },
+    "parasect047": {
+      "name": "parasect047",
+      "map": {
+        "0": "047parasect"
+      }
+    },
+    "venonat048": {
+      "name": "venonat048",
+      "map": {
+        "0": "048venonat"
+      }
+    },
+    "venomoth049": {
+      "name": "venomoth049",
+      "map": {
+        "0": "049venomoth"
+      }
+    },
+    "diglett050": {
+      "name": "diglett050",
+      "map": {
+        "0": "050diglett"
+      }
+    },
+    "dugtrio051": {
+      "name": "dugtrio051",
+      "map": {
+        "0": "051dugtrio"
+      }
+    },
+    "meowth052": {
+      "name": "meowth052",
+      "map": {
+        "0": "052meowth"
+      }
+    },
+    "persian053": {
+      "name": "persian053",
+      "map": {
+        "0": "053persian"
+      }
+    },
+    "psyduck054": {
+      "name": "psyduck054",
+      "map": {
+        "0": "054psyduck"
+      }
+    },
+    "golduck055": {
+      "name": "golduck055",
+      "map": {
+        "0": "055golduck"
+      }
+    },
+    "mankey056": {
+      "name": "mankey056",
+      "map": {
+        "0": "056mankey"
+      }
+    },
+    "primeape057": {
+      "name": "primeape057",
+      "map": {
+        "0": "057primeape"
+      }
+    },
+    "growlithe058": {
+      "name": "growlithe058",
+      "map": {
+        "0": "058growlithe"
+      }
+    },
+    "arcanine059": {
+      "name": "arcanine059",
+      "map": {
+        "0": "059arcanine"
+      }
+    },
+    "poliwag060": {
+      "name": "poliwag060",
+      "map": {
+        "0": "060poliwag"
+      }
+    },
+    "poliwhirl061": {
+      "name": "poliwhirl061",
+      "map": {
+        "0": "061poliwhirl"
+      }
+    },
+    "poliwrath062": {
+      "name": "poliwrath062",
+      "map": {
+        "0": "062poliwrath"
+      }
+    },
+    "abra063": {
+      "name": "abra063",
+      "map": {
+        "0": "063abra"
+      }
+    },
+    "kadabra064": {
+      "name": "kadabra064",
+      "map": {
+        "0": "064kadabra"
+      }
+    },
+    "alakazam065": {
+      "name": "alakazam065",
+      "map": {
+        "0": "065alakazam"
+      }
+    },
+    "machop066": {
+      "name": "machop066",
+      "map": {
+        "0": "066machop"
+      }
+    },
+    "machoke067": {
+      "name": "machoke067",
+      "map": {
+        "0": "067machoke"
+      }
+    },
+    "machamp068": {
+      "name": "machamp068",
+      "map": {
+        "0": "068machamp"
+      }
+    },
+    "bellsprout069": {
+      "name": "bellsprout069",
+      "map": {
+        "0": "069bellsprout"
+      }
+    },
+    "weepinbell070": {
+      "name": "weepinbell070",
+      "map": {
+        "0": "070weepinbell"
+      }
+    },
+    "victreebel071": {
+      "name": "victreebel071",
+      "map": {
+        "0": "071victreebel"
+      }
+    },
+    "tentacool072": {
+      "name": "tentacool072",
+      "map": {
+        "0": "072tentacool"
+      }
+    },
+    "tentacruel073": {
+      "name": "tentacruel073",
+      "map": {
+        "0": "073tentacruel"
+      }
+    },
+    "geodude074": {
+      "name": "geodude074",
+      "map": {
+        "0": "074geodude"
+      }
+    },
+    "graveler075": {
+      "name": "graveler075",
+      "map": {
+        "0": "075graveler"
+      }
+    },
+    "golem076": {
+      "name": "golem076",
+      "map": {
+        "0": "076golem"
+      }
+    },
+    "ponyta077": {
+      "name": "ponyta077",
+      "map": {
+        "0": "077ponyta"
+      }
+    },
+    "rapidash078": {
+      "name": "rapidash078",
+      "map": {
+        "0": "078rapidash"
+      }
+    },
+    "slowpoke079": {
+      "name": "slowpoke079",
+      "map": {
+        "0": "079slowpoke"
+      }
+    },
+    "slowbro080": {
+      "name": "slowbro080",
+      "map": {
+        "0": "080slowbro"
+      }
+    },
+    "magnemite081": {
+      "name": "magnemite081",
+      "map": {
+        "0": "081magnemite"
+      }
+    },
+    "magneton082": {
+      "name": "magneton082",
+      "map": {
+        "0": "082magneton"
+      }
+    },
+    "farfetchd083": {
+      "name": "farfetchd083",
+      "map": {
+        "0": "083farfetchd"
+      }
+    },
+    "doduo084": {
+      "name": "doduo084",
+      "map": {
+        "0": "084doduo"
+      }
+    },
+    "dodrio085": {
+      "name": "dodrio085",
+      "map": {
+        "0": "085dodrio"
+      }
+    },
+    "seel086": {
+      "name": "seel086",
+      "map": {
+        "0": "086seel"
+      }
+    },
+    "dewgong087": {
+      "name": "dewgong087",
+      "map": {
+        "0": "087dewgong"
+      }
+    },
+    "grimer088": {
+      "name": "grimer088",
+      "map": {
+        "0": "088grimer"
+      }
+    },
+    "muk089": {
+      "name": "muk089",
+      "map": {
+        "0": "089muk"
+      }
+    },
+    "shellder090": {
+      "name": "shellder090",
+      "map": {
+        "0": "090shellder"
+      }
+    },
+    "cloyster091": {
+      "name": "cloyster091",
+      "map": {
+        "0": "091cloyster"
+      }
+    },
+    "gastly092": {
+      "name": "gastly092",
+      "map": {
+        "0": "092gastly"
+      }
+    },
+    "haunter093": {
+      "name": "haunter093",
+      "map": {
+        "0": "093haunter"
+      }
+    },
+    "gengar094": {
+      "name": "gengar094",
+      "map": {
+        "0": "094gengar"
+      }
+    },
+    "onix095": {
+      "name": "onix095",
+      "map": {
+        "0": "095onix"
+      }
+    },
+    "drowzee096": {
+      "name": "drowzee096",
+      "map": {
+        "0": "096drowzee"
+      }
+    },
+    "hypno097": {
+      "name": "hypno097",
+      "map": {
+        "0": "097hypno"
+      }
+    },
+    "krabby098": {
+      "name": "krabby098",
+      "map": {
+        "0": "098krabby"
+      }
+    },
+    "kingler099": {
+      "name": "kingler099",
+      "map": {
+        "0": "099kingler"
+      }
+    },
+    "voltorb100": {
+      "name": "voltorb100",
+      "map": {
+        "0": "100voltorb"
+      }
+    },
+    "electrode101": {
+      "name": "electrode101",
+      "map": {
+        "0": "101electrode"
+      }
+    },
+    "exeggcute102": {
+      "name": "exeggcute102",
+      "map": {
+        "0": "102exeggcute"
+      }
+    },
+    "exeggutor103": {
+      "name": "exeggutor103",
+      "map": {
+        "0": "103exeggutor"
+      }
+    },
+    "cubone104": {
+      "name": "cubone104",
+      "map": {
+        "0": "104cubone"
+      }
+    },
+    "marowak105": {
+      "name": "marowak105",
+      "map": {
+        "0": "105marowak"
+      }
+    },
+    "hitmonlee106": {
+      "name": "hitmonlee106",
+      "map": {
+        "0": "106hitmonlee"
+      }
+    },
+    "hitmonchan107": {
+      "name": "hitmonchan107",
+      "map": {
+        "0": "107hitmonchan"
+      }
+    },
+    "lickitung108": {
+      "name": "lickitung108",
+      "map": {
+        "0": "108lickitung"
+      }
+    },
+    "koffing109": {
+      "name": "koffing109",
+      "map": {
+        "0": "109koffing"
+      }
+    },
+    "weezing110": {
+      "name": "weezing110",
+      "map": {
+        "0": "110weezing"
+      }
+    },
+    "rhyhorn111": {
+      "name": "rhyhorn111",
+      "map": {
+        "0": "111rhyhorn"
+      }
+    },
+    "rhydon112": {
+      "name": "rhydon112",
+      "map": {
+        "0": "112rhydon"
+      }
+    },
+    "chansey113": {
+      "name": "chansey113",
+      "map": {
+        "0": "113chansey"
+      }
+    },
+    "tangela114": {
+      "name": "tangela114",
+      "map": {
+        "0": "114tangela"
+      }
+    },
+    "kangaskhan115": {
+      "name": "kangaskhan115",
+      "map": {
+        "0": "115kangaskhan"
+      }
+    },
+    "horsea116": {
+      "name": "horsea116",
+      "map": {
+        "0": "116horsea"
+      }
+    },
+    "seadra117": {
+      "name": "seadra117",
+      "map": {
+        "0": "117seadra"
+      }
+    },
+    "goldeen118": {
+      "name": "goldeen118",
+      "map": {
+        "0": "118goldeen"
+      }
+    },
+    "seaking119": {
+      "name": "seaking119",
+      "map": {
+        "0": "119seaking"
+      }
+    },
+    "staryu120": {
+      "name": "staryu120",
+      "map": {
+        "0": "120staryu"
+      }
+    },
+    "starmie121": {
+      "name": "starmie121",
+      "map": {
+        "0": "121starmie"
+      }
+    },
+    "mrmime122": {
+      "name": "mrmime122",
+      "map": {
+        "0": "122mrmime"
+      }
+    },
+    "scyther123": {
+      "name": "scyther123",
+      "map": {
+        "0": "123scyther"
+      }
+    },
+    "jynx124": {
+      "name": "jynx124",
+      "map": {
+        "0": "124jynx"
+      }
+    },
+    "electabuzz125": {
+      "name": "electabuzz125",
+      "map": {
+        "0": "125electabuzz"
+      }
+    },
+    "magmar126": {
+      "name": "magmar126",
+      "map": {
+        "0": "126magmar"
+      }
+    },
+    "pinsir127": {
+      "name": "pinsir127",
+      "map": {
+        "0": "127pinsir"
+      }
+    },
+    "tauros128": {
+      "name": "tauros128",
+      "map": {
+        "0": "128tauros"
+      }
+    },
+    "magikarp129": {
+      "name": "magikarp129",
+      "map": {
+        "0": "129magikarp"
+      }
+    },
+    "gyarados130": {
+      "name": "gyarados130",
+      "map": {
+        "0": "130gyarados"
+      }
+    },
+    "lapras131": {
+      "name": "lapras131",
+      "map": {
+        "0": "131lapras"
+      }
+    },
+    "ditto132": {
+      "name": "ditto132",
+      "map": {
+        "0": "132ditto"
+      }
+    },
+    "eevee133": {
+      "name": "eevee133",
+      "map": {
+        "0": "133eevee"
+      }
+    },
+    "vaporeon134": {
+      "name": "vaporeon134",
+      "map": {
+        "0": "134vaporeon"
+      }
+    },
+    "jolteon135": {
+      "name": "jolteon135",
+      "map": {
+        "0": "135jolteon"
+      }
+    },
+    "flareon136": {
+      "name": "flareon136",
+      "map": {
+        "0": "136flareon"
+      }
+    },
+    "porygon137": {
+      "name": "porygon137",
+      "map": {
+        "0": "137porygon"
+      }
+    },
+    "omanyte138": {
+      "name": "omanyte138",
+      "map": {
+        "0": "138omanyte"
+      }
+    },
+    "omastar139": {
+      "name": "omastar139",
+      "map": {
+        "0": "139omastar"
+      }
+    },
+    "kabuto140": {
+      "name": "kabuto140",
+      "map": {
+        "0": "140kabuto"
+      }
+    },
+    "kabutops141": {
+      "name": "kabutops141",
+      "map": {
+        "0": "141kabutops"
+      }
+    },
+    "aerodactyl142": {
+      "name": "aerodactyl142",
+      "map": {
+        "0": "142aerodactyl"
+      }
+    },
+    "snorlax143": {
+      "name": "snorlax143",
+      "map": {
+        "0": "143snorlax"
+      }
+    },
+    "articuno144": {
+      "name": "articuno144",
+      "map": {
+        "0": "144articuno"
+      }
+    },
+    "zapdos145": {
+      "name": "zapdos145",
+      "map": {
+        "0": "145zapdos"
+      }
+    },
+    "moltres146": {
+      "name": "moltres146",
+      "map": {
+        "0": "146moltres"
+      }
+    },
+    "dratini147": {
+      "name": "dratini147",
+      "map": {
+        "0": "147dratini"
+      }
+    },
+    "dragonair148": {
+      "name": "dragonair148",
+      "map": {
+        "0": "148dragonair"
+      }
+    },
+    "dragonite149": {
+      "name": "dragonite149",
+      "map": {
+        "0": "149dragonite"
+      }
+    },
+    "mewtwo150": {
+      "name": "mewtwo150",
+      "map": {
+        "0": "150mewtwo"
+      }
+    },
+    "mew151": {
+      "name": "mew151",
+      "map": {
+        "0": "151mew"
+      }
+    },
+    "antiquedomefossil152": {
+      "name": "antiquedomefossil152",
+      "map": {
+        "0": "152antiquedomefossil"
+      }
+    },
+    "antiquehelixfossil153": {
+      "name": "antiquehelixfossil153",
+      "map": {
+        "0": "153antiquehelixfossil"
+      }
+    },
+    "antiqueoldamber154": {
+      "name": "antiqueoldamber154",
+      "map": {
+        "0": "154antiqueoldamber"
+      }
+    },
+    "bigairballoon155": {
+      "name": "bigairballoon155",
+      "map": {
+        "0": "155bigairballoon"
+      }
+    },
+    "billstransfer156": {
+      "name": "billstransfer156",
+      "map": {
+        "0": "156billstransfer"
+      }
+    },
+    "cyclingroad157": {
+      "name": "cyclingroad157",
+      "map": {
+        "0": "157cyclingroad"
+      }
+    },
+    "daisyshelp158": {
+      "name": "daisyshelp158",
+      "map": {
+        "0": "158daisyshelp"
+      }
+    },
+    "energysticker159": {
+      "name": "energysticker159",
+      "map": {
+        "0": "159energysticker"
+      }
+    },
+    "erikasinvitation160": {
+      "name": "erikasinvitation160",
+      "map": {
+        "0": "160erikasinvitation"
+      }
+    },
+    "giovannischarisma161": {
+      "name": "giovannischarisma161",
+      "map": {
+        "0": "161giovannischarisma"
+      }
+    },
+    "grabber162": {
+      "name": "grabber162",
+      "map": {
+        "0": "162grabber"
+      }
+    },
+    "leftovers163": {
+      "name": "leftovers163",
+      "map": {
+        "0": "163leftovers"
+      }
+    },
+    "protectivegoggles164": {
+      "name": "protectivegoggles164",
+      "map": {
+        "0": "164protectivegoggles"
+      }
+    },
+    "rigidband165": {
+      "name": "rigidband165",
+      "map": {
+        "0": "165rigidband"
+      }
+    },
+    "bulbasaur166": {
+      "name": "bulbasaur166",
+      "map": {
+        "0": "166bulbasaur"
+      }
+    },
+    "ivysaur167": {
+      "name": "ivysaur167",
+      "map": {
+        "0": "167ivysaur"
+      }
+    },
+    "charmander168": {
+      "name": "charmander168",
+      "map": {
+        "0": "168charmander"
+      }
+    },
+    "charmeleon169": {
+      "name": "charmeleon169",
+      "map": {
+        "0": "169charmeleon"
+      }
+    },
+    "squirtle170": {
+      "name": "squirtle170",
+      "map": {
+        "0": "170squirtle"
+      }
+    },
+    "wartortle171": {
+      "name": "wartortle171",
+      "map": {
+        "0": "171wartortle"
+      }
+    },
+    "caterpie172": {
+      "name": "caterpie172",
+      "map": {
+        "0": "172caterpie"
+      }
+    },
+    "pikachu173": {
+      "name": "pikachu173",
+      "map": {
+        "0": "173pikachu"
+      }
+    },
+    "nidoking174": {
+      "name": "nidoking174",
+      "map": {
+        "0": "174nidoking"
+      }
+    },
+    "psyduck175": {
+      "name": "psyduck175",
+      "map": {
+        "0": "175psyduck"
+      }
+    },
+    "poliwhirl176": {
+      "name": "poliwhirl176",
+      "map": {
+        "0": "176poliwhirl"
+      }
+    },
+    "machoke177": {
+      "name": "machoke177",
+      "map": {
+        "0": "177machoke"
+      }
+    },
+    "tangela178": {
+      "name": "tangela178",
+      "map": {
+        "0": "178tangela"
+      }
+    },
+    "mrmime179": {
+      "name": "mrmime179",
+      "map": {
+        "0": "179mrmime"
+      }
+    },
+    "omanyte180": {
+      "name": "omanyte180",
+      "map": {
+        "0": "180omanyte"
+      }
+    },
+    "dragonair181": {
+      "name": "dragonair181",
+      "map": {
+        "0": "181dragonair"
+      }
+    },
+    "venusaur182": {
+      "name": "venusaur182",
+      "map": {
+        "0": "182venusaur"
+      }
+    },
+    "charizard183": {
+      "name": "charizard183",
+      "map": {
+        "0": "183charizard"
+      }
+    },
+    "blastoise184": {
+      "name": "blastoise184",
+      "map": {
+        "0": "184blastoise"
+      }
+    },
+    "arbok185": {
+      "name": "arbok185",
+      "map": {
+        "0": "185arbok"
+      }
+    },
+    "ninetales186": {
+      "name": "ninetales186",
+      "map": {
+        "0": "186ninetales"
+      }
+    },
+    "wigglytuff187": {
+      "name": "wigglytuff187",
+      "map": {
+        "0": "187wigglytuff"
+      }
+    },
+    "alakazam188": {
+      "name": "alakazam188",
+      "map": {
+        "0": "188alakazam"
+      }
+    },
+    "golem189": {
+      "name": "golem189",
+      "map": {
+        "0": "189golem"
+      }
+    },
+    "kangaskhan190": {
+      "name": "kangaskhan190",
+      "map": {
+        "0": "190kangaskhan"
+      }
+    },
+    "jynx191": {
+      "name": "jynx191",
+      "map": {
+        "0": "191jynx"
+      }
+    },
+    "zapdos192": {
+      "name": "zapdos192",
+      "map": {
+        "0": "192zapdos"
+      }
+    },
+    "mew193": {
+      "name": "mew193",
+      "map": {
+        "0": "193mew"
+      }
+    },
+    "billstransfer194": {
+      "name": "billstransfer194",
+      "map": {
+        "0": "194billstransfer"
+      }
+    },
+    "daisyshelp195": {
+      "name": "daisyshelp195",
+      "map": {
+        "0": "195daisyshelp"
+      }
+    },
+    "erikasinvitation196": {
+      "name": "erikasinvitation196",
+      "map": {
+        "0": "196erikasinvitation"
+      }
+    },
+    "giovannischarisma197": {
+      "name": "giovannischarisma197",
+      "map": {
+        "0": "197giovannischarisma"
+      }
+    },
+    "venusaur198": {
+      "name": "venusaur198",
+      "map": {
+        "0": "198venusaur"
+      }
+    },
+    "charizard199": {
+      "name": "charizard199",
+      "map": {
+        "0": "199charizard"
+      }
+    },
+    "blastoise200": {
+      "name": "blastoise200",
+      "map": {
+        "0": "200blastoise"
+      }
+    },
+    "alakazam201": {
+      "name": "alakazam201",
+      "map": {
+        "0": "201alakazam"
+      }
+    },
+    "zapdos202": {
+      "name": "zapdos202",
+      "map": {
+        "0": "202zapdos"
+      }
+    },
+    "erikasinvitation203": {
+      "name": "erikasinvitation203",
+      "map": {
+        "0": "203erikasinvitation"
+      }
+    },
+    "giovannischarisma204": {
+      "name": "giovannischarisma204",
+      "map": {
+        "0": "204giovannischarisma"
+      }
+    },
+    "mew205": {
+      "name": "mew205",
+      "map": {
+        "0": "205mew"
+      }
+    },
+    "switch206": {
+      "name": "switch206",
+      "map": {
+        "0": "206switch"
+      }
+    },
+    "basicenergy207": {
+      "name": "basicenergy207",
+      "map": {
+        "0": "207basicenergy"
+      }
+    }
+  }
+}

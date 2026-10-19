@@ -1,0 +1,7 @@
+{
+  "parent": "pokecrafters_tcg:custom/card",
+  "textures": {
+    "0": "pokecrafters_tcg:block/189golem",
+    "particle": "pokecrafters_tcg:item/189golemicon"
+  }
+}

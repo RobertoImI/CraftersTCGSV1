@@ -1,0 +1,14 @@
+package net.mcreator.pokecrafterstcg.item;
+
+import net.minecraft.world.item.Item;
+
+public class Nidorino033Item extends Item {
+	public Nidorino033Item() {
+		super(new Item.Properties());
+	}
+
+	@Override
+	public int getEnchantmentValue() {
+		return 5;
+	}
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "pokecrafters_tcg:custom/booster",
+  "textures": {
+    "0": "pokecrafters_tcg:block/boosterf",
+    "particle": "pokecrafters_tcg:item/boostericon"
+  }
+}

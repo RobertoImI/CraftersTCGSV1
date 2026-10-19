@@ -1,0 +1,7 @@
+{
+  "parent": "pokecrafters_tcg:custom/card",
+  "textures": {
+    "0": "pokecrafters_tcg:block/049venomoth",
+    "particle": "pokecrafters_tcg:item/049venomothicon"
+  }
+}
