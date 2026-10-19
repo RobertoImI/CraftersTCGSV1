@@ -1,35 +1,47 @@
 package net.mcreator.pokecrafterstcg.cardviewer.client;
 
-import com.mojang.blaze3d.systems.RenderSystem;
 import net.mcreator.pokecrafterstcg.PokecraftersTcgMod;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.resources.ResourceLocation;
 
 /**
- * Holofoil basado en la textura PNG rainbow_foil.png.
+ * Holofoil PNG para el visor HD, sin modificar el Binder ni los ítems.
  *
- * El PNG se generó usando la máscara de destellos rainbow.jpg
- * proporcionada para esta prueba, combinada con un degradado
- * iridiscente y transparencia; no es un shader realista aún.
+ * Dos capas reutilizables:
+ *  - rainbow_gradient.png: iridiscencia MUY tenue.
+ *  - glitter_mask.png: puntos de luz con alfa real.
  *
- * El efecto es independiente de los items, del Binder y del servidor.
+ * IMPORTANTE: no usamos RenderSystem.setShaderColor para cambiar alpha.
+ * En 1.21.1, el blit del GuiGraphics usa sus propios buffers: esa
+ * modulación podía no afectarlos y dibujaba el arcoíris como una sábana.
+ * Ambas texturas llevan ya una transparencia RGBA conservadora.
  */
 public final class HolofoilEffect {
-    private static final ResourceLocation FOIL =
+
+    private static final ResourceLocation RAINBOW =
             ResourceLocation.fromNamespaceAndPath(
                     PokecraftersTcgMod.MODID,
-                    "textures/card_viewer/foil/rainbow_foil.png"
+                    "textures/card_viewer/foil/rainbow_gradient.png"
             );
 
-    // La textura ocupa 1024x512, con región móvil de 512x512.
-    private static final int SOURCE_WIDTH = 1024;
-    private static final int SOURCE_HEIGHT = 512;
-    private static final int SAMPLE_SIZE = 512;
+    private static final ResourceLocation GLITTER =
+            ResourceLocation.fromNamespaceAndPath(
+                    PokecraftersTcgMod.MODID,
+                    "textures/card_viewer/foil/glitter_mask.png"
+            );
+
+    // Texturas atlases desplazables de 512×256.
+    // En cada frame tomamos un recorte de 256×256 que se mueve
+    // dentro de los 512 px de ancho, sin salirse del PNG.
+    private static final int ATLAS_W = 512;
+    private static final int ATLAS_H = 256;
+    private static final int SAMPLE = 256;
 
     private HolofoilEffect() {
     }
 
     public static boolean isHolofoil(int cardNumber) {
+        // Solo el anverso de Venusaur EX 003.
         return cardNumber == 3;
     }
 
@@ -38,39 +50,65 @@ public final class HolofoilEffect {
             int x, int y, int width, int height,
             float time, float activity, float rotationX, float rotationY
     ) {
-        if (width <= 0 || height <= 0) {
-            return;
+        if (width <= 0 || height <= 0) return;
+
+        activity = clamp(activity, 0.0F, 1.0F);
+
+        // Los recortes responden a inclinación además del tiempo.
+        // En reposo casi no se desplazan; al arrastrar se nota más.
+        float rainbowPhase = time * 0.29F
+                + rotationY * 0.070F + rotationX * 0.045F;
+        float glitterPhase = time * 0.43F
+                - rotationY * 0.098F + rotationX * 0.060F;
+
+        int rainbowU = 128 + Math.round(
+                (float) Math.sin(rainbowPhase) * 120.0F);
+        int glitterU = 128 + Math.round(
+                (float) Math.sin(glitterPhase) * 120.0F);
+
+        // Mantener la textura COMPLETA por debajo de la carta:
+        // cada PNG tiene alpha real (la mayor parte es transparente).
+        // Más pases con movimiento realzan el efecto gradualmente
+        // sin agregar un rectángulo opaco.
+        renderLayer(graphics, RAINBOW, x, y, width, height, rainbowU);
+
+        if (activity > 0.30F) {
+            renderLayer(graphics, RAINBOW, x, y, width, height, rainbowU);
         }
 
-        // Incluso sin mover la carta, la textura deriva muy lentamente.
-        // Al arrastrar, se desplaza mucho más según la inclinación.
-        float position = time * (0.7F + activity * 1.8F)
-                + rotationY * 5.3F + rotationX * 2.9F;
+        // Destellos RGB blancos con fondo 100% transparente.
+        renderLayer(graphics, GLITTER, x, y, width, height, glitterU);
 
-        int u = Math.floorMod((int) Math.floor(position * 10.0F),
-                SOURCE_WIDTH - SAMPLE_SIZE + 1);
-
-        // Baja intensidad en reposo; mayor presencia al arrastrar.
-        float alpha = clamp(0.18F + activity * 0.72F, 0.0F, 0.90F);
-
-        // La propia imagen lleva alpha por píxel: sus zonas negras se
-        // convirtieron en transparencia, no tapan la carta.
-        RenderSystem.setShaderColor(1.0F, 1.0F, 1.0F, alpha);
-        try {
-            graphics.blit(
-                    FOIL,
-                    x, y, width, height,
-                    (float) u, 0.0F,
-                    SAMPLE_SIZE, SAMPLE_SIZE,
-                    SOURCE_WIDTH, SOURCE_HEIGHT
-            );
-            graphics.flush();
-        } finally {
-            RenderSystem.setShaderColor(1.0F, 1.0F, 1.0F, 1.0F);
+        if (activity > 0.20F) {
+            renderLayer(graphics, GLITTER, x, y, width, height, glitterU);
+        }
+        if (activity > 0.65F) {
+            renderLayer(graphics, GLITTER, x, y, width, height, glitterU);
         }
     }
 
-    private static float clamp(float value, float min, float max) {
-        return Math.max(min, Math.min(max, value));
+    private static void renderLayer(
+            GuiGraphics graphics,
+            ResourceLocation texture,
+            int x, int y, int width, int height,
+            int offsetU
+    ) {
+        int u = Math.max(0, Math.min(ATLAS_W - SAMPLE, offsetU));
+
+        // Se usa la sobrecarga con destino y origen independientes.
+        // Esta llamada toma la región completa 256×256 y la escala
+        // a la carta sin recortar o agrandar por error.
+        graphics.blit(
+                texture, x, y, width, height,
+                (float) u, 0.0F,
+                SAMPLE, SAMPLE,
+                ATLAS_W, ATLAS_H
+        );
+        // Respetar el orden de los buffers respecto a la carta.
+        graphics.flush();
+    }
+
+    private static float clamp(float v, float low, float high) {
+        return Math.max(low, Math.min(high, v));
     }
 }
