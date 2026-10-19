@@ -16,7 +16,7 @@ import net.neoforged.neoforge.client.event.InputEvent;
  * Abre el Card Viewer cuando el jugador
  * hace clic derecho sosteniendo una carta.
  *
- * Por ahora solamente funciona con la carta 001.
+ * Por ahora funciona con las cartas 001, 002 y 003.
  */
 @EventBusSubscriber(
         modid = PokecraftersTcgMod.MODID,
@@ -94,9 +94,11 @@ public final class CardViewerClientEvents {
         /*
          * PRUEBA V1:
          *
-         * solamente Bulbasaur 001.
+         * Bulbasaur 001, Ivysaur 002 y Venusaur 003.
          */
-        if (cardNumber != 1) {
+        // V2: solo las cartas con textura HD disponible (001, 002, 003).
+        // No interceptamos clic derecho de otros items.
+        if (cardNumber < 1 || cardNumber > 3) {
             return;
         }
 
